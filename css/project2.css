@@ -1,16 +1,14 @@
 body{
-    background: url('/images/bg.jpg');
-    background-size: 100% 1110% ;
-    background-repeat: no-repeat;
-    color: white;
+    background:white;
+    background: url('/images/bg.png');
+    font-family: 'Baloo Bhai', cursive;
 }
 
-#logo{ 
-    margin: 10px 50px 0px 20px;
-}
+/* NAVBAR STARTS HERE  */
 
 #logo img{
-    height: 53px;
+    height: 70px;
+    margin-top: 20px;
 }
 
 #nav{
@@ -24,9 +22,52 @@ body{
 
 #nav ul li{
     list-style: none;
+    text-decoration: none;
     font-size: 1.7rem;
 }
 
+#nav ul li a{
+    text-decoration: none;
+    color: rgb(120, 108, 108);
+}
+
+#nav ul li a:hover{
+    color: rgb(105, 91, 91);
+    text-decoration:underline;
+}
+
 .item{
-    padding-left: 80px;
+    padding-left: 50px;
+}
+
+.button{
+    border: 5px solid red;
+    height: 45px;
+    width: 300px;
+    border-radius: 15px;
+    position: absolute;
+    right: 10px;
+}
+
+/* NAVBAR ENDS HERE  */
+
+/* MAIN PAGE PRODUCTS STARTS HERE */
+.container{
+    display: flex;
+    height: 250px;
+    margin-bottom: 1%;
+    /* border: 5px solid red; */
+}
+
+.products{
+    border: 5px solid black;
+    height: 80%;
+    width: 20%;
+    margin: 25px 35px ;
+    padding: 0px 0px 0px 5px;
+}
+
+.products img{
+    padding: 12px;
+    height: 180px;
 }

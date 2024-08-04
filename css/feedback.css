@@ -1,0 +1,16 @@
+body{
+    background: url('/images/bg.png');
+    color: rgb(67, 60, 60);
+    font-family: 'Baloo Bhai', cursive;
+
+}
+
+.container{
+    text-align: center;
+    margin:2% 0% 0% 33%;
+    font-size: 2rem;
+    border: 5px solid red;
+    border-radius: 20px;
+    height: 650px;
+    width: 550px;
+}
