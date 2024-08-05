@@ -70,6 +70,10 @@ body{
     padding: 0px 0px 0px 5px;
 }
 
+.products:hover{
+    cursor: pointer;
+}
+
 .products img{
     padding: 12px;
     height: 180px;
