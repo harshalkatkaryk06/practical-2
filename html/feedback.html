@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">`
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback Form</title>
-    <link rel="stylesheet" href="/css/feedback.css">
+    <title>Feedback</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
 </head>
-<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
 <body>
+    <link rel="stylesheet" href="/css/feedback.css">
+    <!-- Navbar starts here -->
     <nav id="nav">
         <div id="logo">
             <img src="/images/logo.jpg" alt="error">
@@ -16,21 +17,24 @@
         <ul>
             <li class="item"><a href="/html/project2.html">Home</a></li>
             <li class="item"><a href="#">Newly Launched</a></li>
-            <li class="item"><a href="#">Category</a></li>
+            <li class="item"><a href="/html/category.html">Category</a></li>
             <li class="item"><a href="#">Sign In</a></li>
             <li class="item"><a href="/html/feedback.html">Feedback</a></li>
         </ul>
-    
     </nav>
-    <div class="container">
-        We value your feedback
+    <!--navbar ends here  -->
 
-        <div id="experience">
-            Please rate your experience
-        </div>
+    <div class="form">
+        <header>
+            We value your feedback!<br> 
+            Please Enter your Credentials
+        </header>
 
-        <div id="radio btn">
+        <div id="credentials">
+            <p>Full Name <input type="text"></p>
+            <p>Email Id<input type="email"></p>
             
+            <div id="emoji">Rate Us <br>🙂😀😍🤧🤮</div>
         </div>
     </div>
 </body>

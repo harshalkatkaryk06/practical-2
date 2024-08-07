@@ -1,10 +1,11 @@
 body{
+    background:white;
     background: url('/images/bg.png');
-    color: rgb(67, 60, 60);
     font-family: 'Baloo Bhai', cursive;
-
+    height: 300px;
 }
 
+/* NAVBAR STARTS HERE  */
 
 #logo img{
     height: 70px;
@@ -40,30 +41,36 @@ body{
     padding-left: 50px;
 }
 
-.button{
+/* NAVBAR ENDS HERE  */
+
+/* feedback form starts here */
+.form{
     border: 5px solid red;
-    height: 40px;
-    width: 250px;
-    border-radius: 15px;
-    position: absolute;
-    right: 10px;
-    padding: 0%;
-    margin: 0px;
+    height: 620px;
 }
 
-
-.container{
+.form header{
     text-align: center;
-    margin:2% 0% 0% 23%;
-    font-size: 2rem;
-    border: 5px solid red;
-    border-radius: 20px;
-    height: 550px;
-    width: 850px;
+    font-size: 30px;
+    background: #5d5b5b;
 }
 
-#experience{
-    font-size: 25px;
+#credentials{
+    font-size: 30px;
     text-align: center;
-    margin-top: 100px;
+}
+
+#credentials input{
+    border-radius: 5px;
+    font-size: 20px;
+    border: 0;
+    margin: 0px 0px 0px 15px;
+}
+
+#emoji{
+    margin-top: 15%;
+}
+
+#emoji:hover{
+    cursor: pointer;
 }
