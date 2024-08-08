@@ -1,31 +1,33 @@
-body {
-    background: white;
+body{
+    background:white;
     background: url('/images/bg.png');
     font-family: 'Baloo Bhai', cursive;
     height: 300px;
 }
 
-#logo img {
+/* NAVBAR STARTS HERE  */
+
+#logo img{
     height: 70px;
     margin-top: 20px;
 }
 
-#nav {
+#nav{
     display: flex;
     align-items: center;
 }
 
-#nav ul {
+#nav ul{
     display: flex;
 }
 
-#nav ul li {
+#nav ul li{
     list-style: none;
     text-decoration: none;
     font-size: 1.7rem;
 }
 
-#cbtn {
+#cbtn{
     color: rgb(120, 108, 108);
     border: none;
     font-family: 'Baloo Bhai', sans-serif;
@@ -35,27 +37,27 @@ body {
     cursor: pointer;
 }
 
-#cbtn:hover {
+#cbtn:hover{
     text-decoration: underline;
 }
 
-#nav ul li a {
+#nav ul li a{
     text-decoration: none;
     color: rgb(120, 108, 108);
 }
 
-#nav ul li a:hover {
+#nav ul li a:hover{
     color: rgb(105, 91, 91);
-    text-decoration: underline;
+    text-decoration:underline;
 }
 
-.item {
+.item{
     padding-left: 80px;
 }
 
-/* Category Button Starts Here */
+/* Category Button Starts Here*/
 
-.item button {
+.item button{
     border: none;
     background: none;
     list-style: none;
@@ -64,87 +66,78 @@ body {
     color: rgb(120, 108, 108);
 }
 
-.dropdown {
+.dropdown{
     display: inline;
 }
 
-.dropdown button {
+.dropdown button{
     background-color: #c2a8a8;
     border: none;
     cursor: pointer;
 }
 
-.dropdown a {
+.dropdown a{
     display: block;
     color: black;
     text-decoration: none;
     padding: 10px 15px;
 }
 
-.dropdown .content {
+.dropdown .content{
     position: absolute;
     display: none;
     background-color: rgb(224, 220, 220);
     min-width: 100px;
 }
 
-.dropdown:hover .content {
+.dropdown:hover .content{
     display: block;
 }
 
-.dropdown:hover button {
+.dropdown:hover button{
     background-color: cadetblue;
 }
-/* Category Button Ends Here */
+/* Category Button Ends Here*/
 
 
 /* NAVBAR ENDS HERE  */
 
-/* feedback form starts here */
-.form {
-    border: 5px solid red;
-    height: 620px;
+/* MAIN PAGE PRODUCTS STARTS HERE */
+.container{
+    display: flex;
+    height: 250px;
+    margin: 50px 0px 50px 0px;
+    /* border: 5px solid red; */
 }
 
-.form header {
-    text-align: center;
-    font-size: 30px;
-    background: #5d5b5b;
+.products{
+    border: 5px solid rgb(154, 149, 149);
+    height: 80%;
+    width: 20%;
+    margin: 25px 35px ;
+    padding: 0px 0px 0px 5px;
+    border-radius: 8%;
 }
 
-#credentials {
-    font-size: 30px;
-    text-align: center;
-}
-
-#credentials input {
-    border-radius: 5px;
-    font-size: 20px;
-    border: 0;
-    margin: 0px 0px 0px 15px;
-}
-
-#emoji {
-    margin-top: 15%;
-    text-align: center;
-}
-
-.emoji-btn {
-    background: none;
-    border: none;
-    font-size: 2.5rem;
+.products:hover{
     cursor: pointer;
-    margin: 0 10px;
-    transition: transform 0.2s ease;
+    background: rgb(215, 201, 201);
+    border-radius: 15%;
 }
 
-.emoji-btn:hover {
-    transform: scale(1.2);
+.products img{
+    padding: 12px;
+    height: 180px;
 }
 
-.emoji-btn:focus {
-    outline: none;
-    transform: scale(1.2);
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+#second img{
+    width: 80%;
+    padding-left: 28px;
 }
+
+#fourth img{
+    width: 80%;
+    padding: 10px 0px 10px 20px;
+}
+
+/* MAIN PAGE PRODUCTS Ends HERE */
