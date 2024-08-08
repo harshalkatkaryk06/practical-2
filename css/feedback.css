@@ -5,8 +5,6 @@ body{
     height: 300px;
 }
 
-/* NAVBAR STARTS HERE  */
-
 #logo img{
     height: 70px;
     margin-top: 20px;
@@ -27,6 +25,20 @@ body{
     font-size: 1.7rem;
 }
 
+#cbtn{
+    color: rgb(120, 108, 108);
+    border: none;
+    font-family: 'Baloo Bhai', sans-serif;
+    background: none;
+    text-decoration: none;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+#cbtn:hover{
+    text-decoration: underline;
+}
+
 #nav ul li a{
     text-decoration: none;
     color: rgb(120, 108, 108);
@@ -38,8 +50,53 @@ body{
 }
 
 .item{
-    padding-left: 50px;
+    padding-left: 80px;
 }
+
+/* Category Button Starts Here*/
+
+.item button{
+    border: none;
+    background: none;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: rgb(120, 108, 108);
+}
+
+.dropdown{
+    display: inline;
+}
+
+.dropdown button{
+    background-color: #c2a8a8;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    position: absolute;
+    display: none;
+    background-color: rgb(224, 220, 220);
+    min-width: 100px;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: cadetblue;
+}
+/* Category Button Ends Here*/
+
 
 /* NAVBAR ENDS HERE  */
 
@@ -68,6 +125,7 @@ body{
 }
 
 #emoji{
+    
     margin-top: 15%;
 }
 
